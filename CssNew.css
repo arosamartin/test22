@@ -1,0 +1,265 @@
+﻿#body {
+	width: 80%;
+}
+
+#test {
+	width: 80%;
+	position: relative;
+} 
+
+/* The characteristics that the main picture in the bakground will have on every page. */
+
+#mainpic {
+	height: 787px;
+	width: 1400px;
+	position: relative;
+	margin-left: 145px;
+	z-index: -1;
+	left: -143px; 
+	top: -5px;
+	margin-bottom: 0px;
+	left: -142px; top: 14px;
+	width: 100%
+}
+
+.container {
+	position: relative;
+	text-align: center;
+	color: black;
+}
+
+#MainText {
+	position: absolute;
+	left: 10%; 
+	top: 10%; 
+	width: 10%; 
+	height: 10%;
+	font-size: 55pt;
+}
+
+.SecondText{
+	position: absolute;
+}
+.auto-style3{
+	left: 674px; 
+	top: 160px; 
+	width: 292px; 
+	height: 42px;
+}
+
+nav {
+	width: 324px; 
+	position: relative; 
+	left: 20px; 
+	top: -780px;
+	height: 44px;
+	font-family: "Microsoft JhengHei UI Light";
+	margin-top: 0px;
+	font-size: 18pt;
+}
+
+
+#useful {
+		text-decoration: none;
+		font-size: 16pt;
+		color: #FFFFFF;
+}
+
+
+nav a:link {
+	color: #ffffff;
+	background: transparent;
+}
+
+nav a:visited {
+	color: #B6CD6A;
+	background: transparent;
+}
+
+nav a:hover {
+	color: #E9BED5;
+	background: transparent;
+}
+
+.white {
+	background-color: #ffffff;
+	background: opaque;
+}
+
+#Blog {
+	left: 356px; 
+	top: -136px; 
+	width: 696px; 
+	height: 33px;
+	font-family: "Yu Gothic Light";
+	font-size: 24pt;
+	margin-top: 0px;
+	position: relative;
+	text-align: center;
+
+}
+ #NewNav {
+	width: 688px; 
+	height: 34px; 
+	position: relative; 
+	left: 357px; 
+	top: -147px; 
+	text-align: center;
+	margin-top: 0px;
+	font-family: "Microsoft JhengHei UI Light";
+	font-size: 12pt;
+	color: #808080;
+	text-decoration: none;
+
+}
+
+.auto-style6 {
+	color: #808080;
+}
+
+.auto-style5 {
+	text-decoration: none;
+}
+
+.auto-style7 {
+	color: #4B4B4B;
+}
+
+
+#login {
+	width: 694px;  
+	height: 76px; 
+	color: #4B4B4B;
+	font-family: "Microsoft JhengHei UI Light";
+	font-size: 22pt;
+	text-align: center;
+	left: 365px; 
+	top: -159px; 
+	position: relative; 
+	width: 727px;
+
+}
+
+#submit {
+	width: 222px; 
+	height: 45px; 
+	position: relative; 
+	left: 319px; 
+	top: 7px;
+	font-family: "Microsoft JhengHei UI Light";
+	font-size: 14pt;
+	color: #808080;
+
+}
+
+#form {
+	font-family: "Microsoft JhengHei UI Light";
+	font-size: 16pt;
+	color: #4B4B4B;
+
+}
+
+.auto-style9 {
+	font-family: "Microsoft JhengHei UI Light";
+	font-size: 16pt;
+	color: #4B4B4B;
+}
+
+#input {
+	width: 540px
+}
+
+#mmm {
+	left: 444px; top: -157px; width: 53%; height: 276px
+}
+
+#slide1 {
+	width: 300px;
+	height: 170px;
+	position: relative;
+}
+
+#slide2 {
+	width: 284px;
+	height: 177px;
+}
+
+#slide3 {
+	width: 279px;
+	height: 180px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+	position: relative;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.auto-style4 {
+	font-family: "Microsoft JhengHei UI Light";
+	font-size: 22pt;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
